@@ -97,4 +97,5 @@ c1.speak();
 c2.speak();
 ```
 Diagram to represnt above code (Linking Object to Other Object)
+
 <img src="object_link.jpg" alt="object_link" height="480">
