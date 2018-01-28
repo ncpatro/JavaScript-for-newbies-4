@@ -1,4 +1,4 @@
-# JavaScript for Newbies 4
+# JavaScript for Newbies Session 4
 
 This is a repository for Session 4 of the JS for Newbies series by Javascript Meetup Bangalore.
 
@@ -15,7 +15,6 @@ This is a repository for Session 4 of the JS for Newbies series by Javascript Me
   * The *new* Keyword
   * Prototype
   * Inheritance
-  * ES6 Class
 
 ## Any questions
  Please reach out to me on slack @Patro or you can post to [jsfornewbies slack channel](https://jsmeetupbglr.slack.com/messages/C7YKYNABA/team/U6Y9N5WHZ/)
