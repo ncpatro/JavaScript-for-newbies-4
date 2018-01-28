@@ -44,7 +44,7 @@ console.log(c2.__proto__ === c2.constructor.prototype);
 
 ```
 We will go through below diagram to understand the prototype in above code snippet
-![alt Prototype](Prototype.jpg)
+![alt Prototype](diagrams/Prototype.jpg)
   * Function and Object linked with an arbitrary linkage called .prototype
   * [[Prototype]] is an internal linkage which get created after executing any function with “new” keyword
   * \_\_proto\_\_ is an public property of Object.prototype to access the [[Prototype]] linkage
@@ -63,7 +63,7 @@ Car.prototype.start = function() {
 };
 
 var c1 = new Car("Fiesta");
-console.log(c1.start());      //"engine of Fiesta starting..." 
+console.log(c1.start());      //"engine of Fiesta starting..."
 
 c1.start = function() {
   console.log("Hello " + Car.prototype.start.call(this));
@@ -102,4 +102,3 @@ c2.speak(); // "Hello engine of Baleno starting..."
   * Constructor: It’s a function which called with new keyword in front of it but .constructor is a property
   * [[Prototype]] is a linkage from one object to another object, it creates when we call Object.create() or when we call a function with new keyword
   * \_\_proto\_\_ or Object.getPrototypeOf or .constructor.prototype all points to [[Prototype]]
-

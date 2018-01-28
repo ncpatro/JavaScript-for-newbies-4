@@ -2,15 +2,15 @@
 Inheritance in most class-based object-oriented languages is a mechanism in which one object acquires all the properties and behaviours of the parent objec.
 
 ## Classical Inheritance (Non JavaScript)
-<img src="classical_inheritance.jpg" alt="classical_inheritance" height="480">
+<img src="diagrams/classical_inheritance.jpg" alt="classical_inheritance" height="480">
 
  Diagram of Classical Inheritance
   * Vehicle is parent class and v1,v2 are the instances of Vehicle
   * Car is child class of Vehicle and c1, c2 are instances of Car
   * In classical inheritance it creates a copy of class when we create an instance or object and after that class and instance both are separate entity.
-  
+
 ## Prototypal Inheritance (Behvaiour Delegation pattern)
-<img src="prototypal_inheritance.jpg" alt="prototypal_inheritance" height="480">
+<img src="diagrams/prototypal_inheritance.jpg" alt="prototypal_inheritance" height="480">
 
 Diagram of Prototypal Inheritance
   * v1 and v2  is linked to Vehicle.prototype because it’s been created using new keyword.
@@ -75,7 +75,7 @@ This pattern is called Object Delegation pattern.
 ```
 var Vehicle= {
   init: function(name) {
-    this.name = name; 
+    this.name = name;
   },
   start: function() {
     return "engine of "+this.name + " starting...";
@@ -98,4 +98,4 @@ c2.speak();
 ```
 Diagram to represnt above code (Linking Object to Other Object)
 
-<img src="object_link.jpg" alt="object_link" height="480">
+<img src="diagrams/object_link.jpg" alt="object_link" height="480">
