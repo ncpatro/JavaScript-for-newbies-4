@@ -43,7 +43,8 @@ console.log(c1.__proto__ === Object.getPrototypeOf(c1));
 console.log(c2.__proto__ === c2.constructor.prototype);
 
 ```
-We will go through the attached [diagram](Prototype.jpg) to understand the prototype in above code snippet.
+We will go through below diagram to understand the prototype in above code snippet
+![alt Prototype](Prototype.jpg)
   * Function and Object linked with an arbitrary linkage called .prototype
   * [[Prototype]] is an internal linkage which get created after executing any function with “new” keyword
   * \_\_proto\_\_ is an public property of Object.prototype to access the [[Prototype]] linkage
